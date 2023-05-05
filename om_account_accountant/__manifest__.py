@@ -2,15 +2,15 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'Odoo 15 Accounting',
-    'version': '6.3.0',
+    'name': 'Odoo 16 Accounting',
+    'version': '1.0.0',
     'category': 'Accounting',
     'summary': 'Accounting Reports, Asset Management and Account Budget, Recurring Payments, '
-               'Lock Dates, Fiscal Year For Odoo15 Community Edition, Accounting Dashboard, Financial Reports, '
+               'Lock Dates, Fiscal Year For Odoo 16 Community Edition, Accounting Dashboard, Financial Reports, '
                'Customer Follow up Management, Bank Statement Import, Odoo Budget',
-    'description': 'Odoo 15 Financial Reports, Asset Management and '
+    'description': 'Odoo 16 Financial Reports, Asset Management and '
                    'Account Budget, Financial Reports, Recurring Payments, '
-                   'Customer Credit Limit, Bank Statement Import, Customer Follow Up Management,'
+                   'Bank Statement Import, Customer Follow Up Management,'
                    'Account Lock Date, Accounting Dashboard',
     'live_test_url': 'https://www.youtube.com/watch?v=6gB-05E5kNg',
     'sequence': '1',
@@ -26,17 +26,14 @@
         'om_fiscal_year',
         'om_recurring_payments',
         'om_account_bank_statement_import',
-        'om_credit_limit',
         'om_account_daily_reports',
         'om_account_followup',
     ],
-    'excludes': ['account_accountant'],
     'demo': [],
     'data': [
         'security/group.xml',
         'views/menu.xml',
         'views/settings.xml',
-        'views/account_type.xml',
         'views/account_group.xml',
         'views/account_tag.xml',
         'views/res_partner.xml',
@@ -50,6 +47,6 @@
     'installable': True,
     'application': True,
     'auto_install': False,
-    'images': ['static/description/banner.gif'],
+    'images': ['static/description/banner.png'],
 }
 

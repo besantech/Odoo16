@@ -1,10 +1,10 @@
 ==================
-Odoo 15 Accounting
+Odoo 16 Accounting
 ==================
 
-This Module will adds following accounting features to Odoo 15 community edition:
-Financial Reports, Asset Management, Budget Management, Credit Limit, Bank Statement Import,
-Daily Reports, Customer Follow Ups, Credit Limit and Recurring Payments
+This Module will adds following accounting features to Odoo 16 community edition:
+Financial Reports, Asset Management, Budget Management, Bank Statement Import,
+Daily Reports, Customer Follow Ups and Recurring Payments
 
 
 Common FAQ
